@@ -34,7 +34,8 @@ export const MicroPage: React.FC = () => {
       type: 'Market failure / Negative externalities',
       category: 'micro',
       change: '$21bn healthcare cost',
-      changeType: 'negative'
+      changeType: 'negative',
+      lastUpdated: 'Recent estimate'
     },
     {
       title: 'CO₂ from Product Use',
@@ -43,7 +44,8 @@ export const MicroPage: React.FC = () => {
       type: 'Market failure / Negative externalities',
       category: 'micro',
       change: '10% production, 5% disposal',
-      changeType: 'negative'
+      changeType: 'negative',
+      lastUpdated: 'Current estimate'
     },
     {
       title: 'Lost Working Days',
@@ -51,7 +53,8 @@ export const MicroPage: React.FC = () => {
       unit: 'billion globally',
       type: 'Market failure / Negative externalities',
       category: 'micro',
-      changeType: 'negative'
+      changeType: 'negative',
+      lastUpdated: 'Current annual estimate'
     },
 
     // Positive Externalities
@@ -62,14 +65,16 @@ export const MicroPage: React.FC = () => {
       type: 'Market failure / Positive externalities',
       category: 'micro',
       change: '£11k higher graduate earnings',
-      changeType: 'positive'
+      changeType: 'positive',
+      lastUpdated: 'Recent years estimate'
     },
     {
       title: 'UK Tuition Cap',
       value: '£9,250',
       type: 'Market failure / Positive externalities',
       category: 'micro',
-      changeType: 'neutral'
+      changeType: 'neutral',
+      lastUpdated: '2024'
     },
     {
       title: 'No In-Work Training',
@@ -78,7 +83,8 @@ export const MicroPage: React.FC = () => {
       type: 'Market failure / Positive externalities',
       category: 'micro',
       change: '36% managers more likely to leave',
-      changeType: 'negative'
+      changeType: 'negative',
+      lastUpdated: '2022'
     },
 
     // Government Intervention - Tax
@@ -89,7 +95,8 @@ export const MicroPage: React.FC = () => {
       type: 'Government intervention / Taxation',
       category: 'micro',
       change: '£350m annual revenue',
-      changeType: 'positive'
+      changeType: 'positive',
+      lastUpdated: 'Since 2018'
     },
     {
       title: 'Sugar Tax Elasticity',
@@ -97,7 +104,8 @@ export const MicroPage: React.FC = () => {
       unit: 'to -0.9',
       type: 'Government intervention / Taxation',
       category: 'micro',
-      changeType: 'neutral'
+      changeType: 'neutral',
+      lastUpdated: '2013 study'
     },
 
     // Government Intervention - Subsidy
@@ -108,7 +116,8 @@ export const MicroPage: React.FC = () => {
       type: 'Government intervention / Subsidies',
       category: 'micro',
       change: '100k potential jobs',
-      changeType: 'positive'
+      changeType: 'positive',
+      lastUpdated: '2024'
     },
     {
       title: 'Tata Gigafactory',
@@ -117,7 +126,8 @@ export const MicroPage: React.FC = () => {
       type: 'Government intervention / Subsidies',
       category: 'micro',
       change: '4,000 jobs',
-      changeType: 'positive'
+      changeType: 'positive',
+      lastUpdated: '2024'
     },
 
     // Price Controls
@@ -128,7 +138,8 @@ export const MicroPage: React.FC = () => {
       type: 'Government intervention / Price controls',
       category: 'micro',
       change: '150 fewer deaths/year',
-      changeType: 'positive'
+      changeType: 'positive',
+      lastUpdated: 'Since 2018'
     },
     {
       title: 'Alcohol Deaths Reduction',
@@ -137,7 +148,8 @@ export const MicroPage: React.FC = () => {
       type: 'Government intervention / Price controls',
       category: 'micro',
       change: '4% drop hospital admissions',
-      changeType: 'positive'
+      changeType: 'positive',
+      lastUpdated: 'Post-implementation'
     },
     {
       title: 'Sweden Rent Control Wait',
@@ -146,7 +158,8 @@ export const MicroPage: React.FC = () => {
       type: 'Government intervention / Price controls',
       category: 'micro',
       change: '57% privately owned',
-      changeType: 'negative'
+      changeType: 'negative',
+      lastUpdated: 'Current, Stockholm'
     },
     {
       title: 'Hiring Difficulties',
@@ -154,7 +167,8 @@ export const MicroPage: React.FC = () => {
       unit: '% of employers',
       type: 'Government intervention / Price controls',
       category: 'micro',
-      changeType: 'negative'
+      changeType: 'negative',
+      lastUpdated: 'Current'
     },
 
     // Information Provision
@@ -164,7 +178,8 @@ export const MicroPage: React.FC = () => {
       unit: '% smoking fall',
       type: 'Government intervention / Information',
       category: 'micro',
-      changeType: 'positive'
+      changeType: 'positive',
+      lastUpdated: 'Study estimate'
     },
     {
       title: 'Stoptober Quit Attempts',
@@ -172,7 +187,8 @@ export const MicroPage: React.FC = () => {
       unit: 'million',
       type: 'Government intervention / Information',
       category: 'micro',
-      changeType: 'positive'
+      changeType: 'positive',
+      lastUpdated: '2012 onwards'
     },
 
     // Pollution Permits
@@ -183,7 +199,8 @@ export const MicroPage: React.FC = () => {
       type: 'Government intervention / Pollution permits',
       category: 'micro',
       change: '236m → 130m tonnes',
-      changeType: 'positive'
+      changeType: 'positive',
+      lastUpdated: 'EUETS, pre-2020'
     },
     {
       title: 'Free Permits Value',
@@ -192,7 +209,8 @@ export const MicroPage: React.FC = () => {
       type: 'Government intervention / Pollution permits',
       category: 'micro',
       change: 'ExxonMobil & Shell',
-      changeType: 'neutral'
+      changeType: 'neutral',
+      lastUpdated: 'Current UKETS'
     },
 
     // Market Structures - Monopoly
@@ -203,7 +221,8 @@ export const MicroPage: React.FC = () => {
       type: 'Market structures / Monopoly',
       category: 'micro',
       change: '30% higher ad costs',
-      changeType: 'negative'
+      changeType: 'negative',
+      lastUpdated: 'Recent estimate'
     },
     {
       title: 'Google EU Fine',
@@ -211,7 +230,8 @@ export const MicroPage: React.FC = () => {
       unit: 'billion',
       type: 'Market structures / Monopoly',
       category: 'micro',
-      changeType: 'negative'
+      changeType: 'negative',
+      lastUpdated: '2017'
     },
 
     // Market Structures - Oligopoly
@@ -222,7 +242,8 @@ export const MicroPage: React.FC = () => {
       type: 'Market structures / Oligopoly',
       category: 'micro',
       change: '£50m price fixing fines',
-      changeType: 'negative'
+      changeType: 'negative',
+      lastUpdated: '2011'
     },
     {
       title: 'Construction Cartel Fine',
@@ -230,7 +251,8 @@ export const MicroPage: React.FC = () => {
       unit: 'million',
       type: 'Market structures / Oligopoly',
       category: 'micro',
-      changeType: 'negative'
+      changeType: 'negative',
+      lastUpdated: 'Recent 2-year period'
     },
 
     // Market Structures - Monopolistic Competition
@@ -240,7 +262,8 @@ export const MicroPage: React.FC = () => {
       type: 'Market structures / Monopolistic competition',
       category: 'micro',
       change: '£6.6bn UK contribution',
-      changeType: 'positive'
+      changeType: 'positive',
+      lastUpdated: '2021'
     },
 
     // Market Structures - Perfect Competition
@@ -251,7 +274,8 @@ export const MicroPage: React.FC = () => {
       type: 'Market structures / Perfect competition',
       category: 'micro',
       change: '74% shop failure rate',
-      changeType: 'negative'
+      changeType: 'negative',
+      lastUpdated: '2022'
     },
 
     // Price Discrimination
@@ -261,7 +285,8 @@ export const MicroPage: React.FC = () => {
       unit: '% discount',
       type: 'Pricing strategies / Price discrimination',
       category: 'micro',
-      changeType: 'positive'
+      changeType: 'positive',
+      lastUpdated: 'Current practice'
     },
     {
       title: 'Uber Surge Pricing',
@@ -269,7 +294,8 @@ export const MicroPage: React.FC = () => {
       unit: '% increase',
       type: 'Pricing strategies / Price discrimination',
       category: 'micro',
-      changeType: 'negative'
+      changeType: 'negative',
+      lastUpdated: 'New York, 2010s-2020s'
     },
 
     // Business Objectives
@@ -280,7 +306,8 @@ export const MicroPage: React.FC = () => {
       type: 'Business objectives / Corporate governance',
       category: 'micro',
       change: '25% profits as dividends',
-      changeType: 'neutral'
+      changeType: 'neutral',
+      lastUpdated: '2023'
     },
 
     // Privatisation
@@ -291,7 +318,8 @@ export const MicroPage: React.FC = () => {
       type: 'Government policy / Privatisation',
       category: 'micro',
       change: '40% rise in bills',
-      changeType: 'negative'
+      changeType: 'negative',
+      lastUpdated: 'Since 1989 privatisation'
     },
 
     // Labour Markets
@@ -301,7 +329,8 @@ export const MicroPage: React.FC = () => {
       type: 'Labour markets / Minimum wage',
       category: 'micro',
       change: '1.6m workers affected',
-      changeType: 'positive'
+      changeType: 'positive',
+      lastUpdated: '1 April 2024'
     },
     {
       title: 'Min Wage Sectors',
@@ -309,7 +338,8 @@ export const MicroPage: React.FC = () => {
       unit: '% retail/hospitality',
       type: 'Labour markets / Minimum wage',
       category: 'micro',
-      changeType: 'neutral'
+      changeType: 'neutral',
+      lastUpdated: '2024'
     },
 
     // Trade Unions
@@ -319,7 +349,8 @@ export const MicroPage: React.FC = () => {
       unit: 'in 2017',
       type: 'Labour markets / Trade unions',
       category: 'micro',
-      changeType: 'negative'
+      changeType: 'negative',
+      lastUpdated: '2017'
     },
     {
       title: 'Public Sector Union Rate',
@@ -328,7 +359,8 @@ export const MicroPage: React.FC = () => {
       type: 'Labour markets / Trade unions',
       category: 'micro',
       change: '12.3% private sector',
-      changeType: 'neutral'
+      changeType: 'neutral',
+      lastUpdated: 'Recent data'
     },
 
     // Income Distribution
@@ -339,7 +371,8 @@ export const MicroPage: React.FC = () => {
       type: 'Income distribution / Poverty',
       category: 'micro',
       change: '17% after housing costs',
-      changeType: 'negative'
+      changeType: 'negative',
+      lastUpdated: '2021/22'
     },
     {
       title: 'UK Gini Coefficient',
@@ -348,7 +381,8 @@ export const MicroPage: React.FC = () => {
       type: 'Income distribution / Inequality',
       category: 'micro',
       change: '0.24 → 0.34 in 1980s',
-      changeType: 'negative'
+      changeType: 'negative',
+      lastUpdated: '2021/22'
     },
     {
       title: 'Top 10% GCSE Success',
@@ -357,7 +391,8 @@ export const MicroPage: React.FC = () => {
       type: 'Income distribution / Educational inequality',
       category: 'micro',
       change: '<30% bottom 10%',
-      changeType: 'negative'
+      changeType: 'negative',
+      lastUpdated: '2021/22'
     },
     {
       title: 'Wealth Concentration',
@@ -365,7 +400,8 @@ export const MicroPage: React.FC = () => {
       unit: '% held by richest 10%',
       type: 'Income distribution / Wealth inequality',
       category: 'micro',
-      changeType: 'negative'
+      changeType: 'negative',
+      lastUpdated: '2020'
     },
     {
       title: 'Inheritance Tax Rate',
@@ -374,7 +410,8 @@ export const MicroPage: React.FC = () => {
       type: 'Income distribution / Taxation',
       category: 'micro',
       change: '£325k-£500k threshold',
-      changeType: 'neutral'
+      changeType: 'neutral',
+      lastUpdated: 'Current UK rates'
     },
 
     // Behavioural Economics
@@ -384,7 +421,8 @@ export const MicroPage: React.FC = () => {
       unit: 'million more savers',
       type: 'Behavioural economics / Nudges',
       category: 'micro',
-      changeType: 'positive'
+      changeType: 'positive',
+      lastUpdated: 'Post opt-out 2012 onwards'
     },
     {
       title: 'Tax Revenue Nudge',
@@ -392,7 +430,8 @@ export const MicroPage: React.FC = () => {
       unit: 'million brought forward',
       type: 'Behavioural economics / Nudges',
       category: 'micro',
-      changeType: 'positive'
+      changeType: 'positive',
+      lastUpdated: 'Recent estimate'
     }
   ];
 
